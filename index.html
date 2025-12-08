@@ -10,7 +10,7 @@
 
 <body>
     <header class="bg-[#EAF7FF]">
-        <div class="flex px-20 text-[#F49A31] justify-between py-1 items-center">
+        <div class="hidden md:flex px-5 md:px-20 text-[#F49A31] justify-between py-1 items-center">
             <div class="text-xs">info@curavidahealth.com</div>
             <div class="space-x-5 flex ">
                 <div class="flex space-x-1 items-center"><img src="phone.png" alt="phone" class="h-4 w-4">
@@ -28,7 +28,7 @@
             </div>
         </div>
     </header>
-    <div class="px-20 flex justify-between items-center h-15 shadow-2xs ">
+    <div class="px-5 md:px-20 hidden md:flex justify-between items-center h-15 shadow-2xs ">
         <div class="font-semibold text-sm text-[#F49A31]">CURAVIDA HOME HEALTH</div>
         <div class="flex space-x-5">
             <ul class="flex items-center space-x-10 text-gray-300">
@@ -47,28 +47,31 @@
                 <img src=" login.png" alt="login " class="h-4 w-4 p-0.5"> </button>
         </div>
     </div>
-    <section class="flex px-20 my-15 justify-between">
-        <div class="max-[600px]">
+    <section class="flex-row md:flex px-5 md:px-20 my-15 justify-between">
+        <div class="md:max-[600px]">
             <div class="flex items-end space-x-1">
-                <img src="homw.png" alt="home" class="max-w-25">
-                <div class="text-[#F49A31] font-bold text-xl">CURAVIDA <br><span class="">HOME HEALTH</span></div>
+                <img src="homw.png" alt="home" class="max-w-8 md:max-w-25 ">
+                <div class="text-[#F49A31] font-bold text-xs md:text-xl">CURAVIDA <br><span class="">HOME HEALTH</span>
+                </div>
             </div>
-            <div class="text-5xl my-5 font-bold">
+            <div class=" text-xl md:text-5xl my-4 md:my-5 font-bold">
                 Your Partner in <br><span class="text-[#F49A31] "> Premium </span>Home <br>Healthcare
             </div>
-            <p class="mb-5">Are you looking for a full-day or 24/7 caregiver?</p>
-            <button class="bg-[#F49A31] text-white rounded-full px-4 py-2">Submit your requirement</button>
+            <p class=" mb-4 md:mb-5 text-xs md:text-sm">Are you looking for a full-day or 24/7 caregiver?</p>
+            <button class="bg-[#F49A31]  text-xs md:text-sm text-white rounded-full px-4 py-2">Submit your
+                requirement</button>
         </div>
         <div class="">
-            <img src="group.png" alt="group" class="max-w-120">
+            <img src="group.png" alt="group" class="md:max-w-120">
         </div>
 
     </section>
-    <section class="px-20 grid grid-cols-1 md:grid-cols-3 bg-[#2B9ADC] text-white p-6">
+    <section class="px-5 md:px-20 grid grid-cols-1 md:grid-cols-3 bg-[#2B9ADC] text-white p-6">
         <div class="flex flex-col items-center px-6 justify-center border-r ">
-            <img src="trained.png" alt="trained" class="max-w-8">
-            <h2>Trained & Verified Caregivers</h2>
-            <span class="text-xs text-center max-w-65 pt-2">In-house trained caregivers skilled in professionalism and
+            <img src="trained.png" alt="trained" class="max-w-7 md:max-w-8">
+            <h2 class="text-sm md:text-[15px]">Trained & Verified Caregivers</h2>
+            <span class="text-xs text-center maxmd:max-w-65 pt-2">In-house trained caregivers skilled in professionalism
+                and
                 mannerisms,
                 with thorough
                 identity and
@@ -78,8 +81,8 @@
 
 
         <div class="flex flex-col items-center px-6 justify-center border-r">
-            <img src="personlised.png" alt="personlised" class="max-w-8">
-            <h2>Personalized Care</h2>
+            <img src="personlised.png" alt="personlised" class="max-w-7 md:max-w-8">
+            <h2 class="text-xs md:text-[15px]">Personalized Care</h2>
             <span class="text-xs text-center max-w-65 pt-2">Care Plan is tailored to each patient after careful
                 consideration of
                 their needs
@@ -88,8 +91,8 @@
         </div>
 
         <div class="flex flex-col items-center pl-6 justify-center">
-            <img src="regular.png" alt="regular" class="max-w-8 justify-center">
-            <h2>Regular Care Updates</h2>
+            <img src="regular.png" alt="regular" class="max-w-7 md:max-w-8 justify-center">
+            <h2 class="text-xs md:text-[15px]">Regular Care Updates</h2>
             <span class="text-xs text-center max-w-65 pt-2">Daily, Weekly & Monthly Reports are shared with the patient
                 attendants to
                 keep them informed on
@@ -99,15 +102,15 @@
 
     </section>
 
-    <section class="px-20 my-20 flex gap-16">
+    <section class="px-5 md:px-20 my-20 flex gap-16">
         <div class="relative">
             <img src="vrdots.png" alt="df" class="-z-10 w-17 absolute -top-10 -left-3">
             <img src="vrdots.png" alt="df" class="-z-10 w-17 absolute -top-10 left-15">
-            <img src="thwopics.png" alt="twopics" class=" h-95 w-300 ml-5 border border-amber-300">
+            <img src="thwopics.png" alt="twopics" class=" md:h-95 md:w-300 ml:7 md:ml-5 border border-amber-300">
 
         </div>
         <div class="">
-            <div class="text-4xl font-bold">
+            <div class="text-sm md:text-4xl font-bold">
                 We make patient care <br>
                 <div class="mt-3"><span class="text-[#F49A31]">stress-free</span> for you</div>
             </div>
@@ -118,16 +121,16 @@
                 that comes with knowing your loved one is receiving the highest quality care possible.</p>
 
             <ul class="space-y-5">
-                <li class="flex items-center gap-4">
+                <li class="text-xs md:text-sm flex items-center gap-4">
                     <img src="love.png" alt="love" class="h-4 w-4"> Dedicated Care Manager
                 </li>
-                <li class="flex items-center gap-4">
+                <li class="text-xs md:text-sm flex items-center gap-4">
                     <img src="love.png" alt="love" class="h-4 w-4"> Personalised Care Plans
                 </li>
-                <li class="flex items-center gap-4">
+                <li class="text-xs md:text-sm flex items-center gap-4">
                     <img src="love.png" alt="love" class="h-4 w-4"> Ongoing support via calls & home visits
                 </li>
-                <li class="flex items-center gap-4">
+                <li class="text-xs md:text-sm flex items-center gap-4">
                     <img src="love.png" alt="love" class="h-4 w-4"> Background-verified caregivers
                 </li>
             </ul>
@@ -140,7 +143,7 @@
             </button>
         </div>
     </section>
-    <section class="bg-linear-to-r from-[#2B9ADC] to-[#90CAEF] px-20">
+    <section class="bg-linear-to-r from-[#2B9ADC] to-[#90CAEF] px-5 md:px-20">
         <div class="flex flex-col justify-center items-center">
             <h1 class="flex items-center text-white mt-10 mb-5 text-lg font-bold">Our Services</h1>
             <p class="flex items-center text-center text-white text-xs mb-5">Discover our range of specialized home
@@ -222,8 +225,8 @@
             </div>
         </div>
     </section>
-    <section class="px-60">
-        <div class="flex justify-center font-bold text-2xl">Choose Care <span class="text-[#F49A31]">Packages</span>
+    <section class="px-10 md:px-60">
+        <div class="flex justify-center font-bold text-2xl">Choose Care<span class="text-[#F49A31]">Packages</span>
         </div>
         <p class="flex justify-center text-center mt-3 text-xs mb-10">Here are care packages designed to meet your
             needs.
@@ -349,7 +352,7 @@
 
         </div>
     </section>
-    <section class="relative bg-linear-to-r from-[#2B9ADC] to-[#8FCEF6] px-20 my-30">
+    <section class="relative bg-linear-to-r from-[#2B9ADC] to-[#8FCEF6] px-5 md:px-20 my-30">
         <div class="flex flex-col p-7 py-15">
             <span class="text-[#F49A31] text-2xl font-semibold">CURAVIDA HOME HEALTH</span>
             <span class="text-white text-3xl my-4 font-semibold">Your Most Trusted At-Home<br> Healthcare Service
@@ -374,7 +377,221 @@
         </div>
 
     </section>
-    <section class="text-2xl font-bold px-20">Frequently Asked<span class="text-[#F49A31]"> Questions</span></section>
+    <section class="px-5 md:px-20 bg-linear-to-r from-[#FBF6EE] to-[#A1C4DA]">
+        <div class="">
+            <h1 class="text-3xl font-semibold">Frequently Asked <span
+                    class="text-[#F49A31] font-semibold text-3xl">Questions</span></h1>
+            <p class="text-xs text-[#868686] mt-4">Here are answers to common questions about our services. Find the
+                information you need
+                below.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 md: gap-4 py-8 md:py-15">
+
+            <div class="p-3 md:p-6 shadow-md border border-[#AFE0FD] ">
+                <h5 class="text-[#2B9ADC] font-semibold">Can I book short term services (Ex. 3 days)?
+                </h5>
+                <p class="text-xs text-[#868686] mt-3">The minimum duration for booking Curavida Health Care Services is
+                    15
+                    days.
+                </p>
+            </div>
+
+            <div class="p-3 md:p-6 shadow-md border border-[#AFE0FD] ">
+                <h5 class="text-[#2B9ADC] font-semibold">When can you start the care services at the earliest?
+
+                </h5>
+                <p class="text-xs text-[#868686] mt-3">After we receive details about the patient's condition and their
+                    requirements,
+                    we assign the caregiver within 4-5 days and start the services. It will take us
+                    a maximum of 7 days to start the services.
+
+                </p>
+            </div>
+
+            <div class="p-3 md:p-6 shadow-md border border-[#AFE0FD] ">
+                <h5 class="text-[#2B9ADC] font-semibold">How to book the care services?
+
+                </h5>
+                <p class="text-xs text-[#868686] mt-3">1. Share Care requirements with your experience Manager 2.
+                    Receive
+                    &
+                    Confirm Care Plan 3. Pay Token Amount & book the services
+                </p>
+            </div>
+
+            <div class="p-3 md:p-6 shadow-md border border-[#AFE0FD] ">
+                <h5 class="text-[#2B9ADC] font-semibold">When will the service start after booking service?
+                </h5>
+                <p class="text-xs text-[#868686] mt-3">A Caregiver will be assigned within 48 hours of booking services.
+                    Once you confirm the caregiver, they start the service on the decided start date of
+                    service.
+                </p>
+            </div>
+
+            <div class="p-3 md:p-6 shadow-md border border-[#AFE0FD] ">
+                <h5 class="text-[#2B9ADC] font-semibold">Are all your caregivers trained?
+                </h5>
+                <p class="text-xs text-[#868686] mt-3">The caregivers are Trained in-House for Caregiving Skills,
+                    Professionalism & Mannerism. After the training they are evaluated, and qualified Caregivers are
+                    certified by Curavida Home Health.
+                </p>
+            </div>
+
+            <div class="p-3 md:p-6 shadow-md border border-[#AFE0FD] ">
+                <h5 class="text-[#2B9ADC] font-semibold">Are the caregivers equipped to handle emergency situations?
+
+                </h5>
+                <p class="text-xs text-[#868686] mt-3">Yes. During the training, caregivers are instructed on the
+                    emergency protocol.
+                    In the event of a medical emergency, caregivers have the contact numbers of immediate responders,
+                    hospitals, and physicians readily available.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="relative">
+        <div class="flex md:flex-row border border-white md:w-240 absolute top-35 left-50">
+            <img src="contactus.png" alt="contactus" class="md:w-120 md:h-120 ">
+            <div class="bg-white px-5 p-3 md:p-5 md:px-20 md:w-120 md:h-120">
+                <div class="flex flex-col">
+                    <label class="text-sm mb-2 text-[#323A47]">Name</label>
+                    <input class="p-2 w-80 border border-[#868686] rounded-xl  focus:outline-none " type="text"
+                        placeholder="Enter your Name">
+                </div>
+
+                <div class="flex flex-col">
+                    <label class="text-sm mb-2 mt-4 text-[#323A47]">Phone Number</label>
+                    <input class="p-2 w-80 border border-[#868686] rounded-xl  focus:outline-none " type="text"
+                        placeholder="Enter your Phone Name">
+                </div>
+
+                <div class="flex flex-col">
+                    <label class="text-sm mb-2 mt-4 text-[#323A47]">Services</label>
+                    <select class="w-80 p-2  border border-[#868686] rounded-xl focus:outline-none  ">
+                        <option class="text-[#868686]">Caretaker</option>
+                        <option class="text-[#868686]">Homemaker</option>
+                        <option class="text-[#868686]">Pettaker</option>
+                    </select>
+                </div>
+
+
+                <div class="flex flex-col mt-4">
+                    <label class="text-sm mb-2 text-[#323A47]">Message</label>
+                    <textarea
+                        class="p-2 text-[#8D8D8D] border border-[#868686] rounded-xl w-80 focus:outline-none text-sm"
+                        placeholder="Write Your Message" rows="3"> </textarea>
+                </div>
+
+                <div class="mt-4">
+                    <button class="bg-[#F49A31] text-white px-9 py-2 rounded-md">Submit</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="bg-[#2B9ADC] pt-8 pb-60">
+            <h1 class="pb-3 flex justify-center text-white font-semibold">Contact Us</h1>
+            <p class="text-center text-white text-xs">Contact us for personalized home healthcare solutions. Our team is
+                here to
+                help!
+            </p>
+        </div>
+        <div class="bg-linear-to-r from-[#FBF6EE] to-[#A1C4DA] h-100"></div>
+    </section>
+    <footer class=" bg-linear-to-r from-[#FBF6EE] to-[#A1C4DA] px-20 pb-10">
+        <div class="flex gap-30">
+            <div class="flex-col">
+                <div class="flex items-end ">
+                    <img src="homw.png" alt="" class="w-17 h-17">
+                    <h1 class="text-[#F49A31] font-semibold">CURAVIDA<br>HOME HEALTH</h1>
+                </div>
+                <div class="text-2xl text-[#323A47] font-semibold">Looking for assistance?<br>
+                    Need guidance or have<br>
+                    questions?
+                </div>
+                <p class="text-xs my-5">Our Support team will contact you with in 1hour<br> and provide you details of
+                    the
+                    best
+                    services<br>
+                    based on you requirements.</p>
+            </div>
+
+
+            <div class="flex gap-20 items-start ">
+                <div class="">
+                    <ul class="text-sm font-semibold ">ABOUT
+                        <li class="text-xs my-3 text-[#868686]">Our Story</li>
+                        <li class="text-xs my-3 text-[#868686]">Testimonials</li>
+                        <li class="text-xs my-3 text-[#868686]">Resources</li>
+                        <li class="text-xs my-3 text-[#868686]">Policy’s</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="text-sm font-semibold">OUR PACKAGES
+                        <li class="text-xs my-3 text-[#868686]">Basic Care </li>
+                        <li class="text-xs my-3 text-[#868686]">Comprehensive Care</li>
+                        <li class="text-xs my-3 text-[#868686]">Advanced Care</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="text-sm font-semibold">OUR SERVICES
+                        <li class="text-xs my-3 text-[#868686]">Elder Care</li>
+                        <li class="text-xs my-3 text-[#868686]">Post-Op Care</li>
+                        <li class="text-xs my-3 text-[#868686]">Chronic Condition Care</li>
+                        <li class="text-xs my-3 text-[#868686]">Terminal Illness Care</li>
+                        <li class="text-xs my-3 text-[#868686]">New born baby & mother Care</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class="text-sm font-semibold">CONNECT
+                        <li class="text-xs my-3 text-[#868686]">support@curavidahealth.in</li>
+                        <li class="text-xs my-3 text-[#868686]">Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex gap-50 items-center">
+
+            <div class="">
+                <button class="bg-[#2B9ADC] text-white p-2 rounded-full flex gap-1 px-5">Contact Us<svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex gap-6">
+                <div class="relative">
+                    <img src="bluecircle.png" alt="" class="w-9 h-9 ">
+                    <img src="in.png" alt="" class="w-5 h-5 absolute top-1.5 left-2">
+                </div>
+
+                <div class="relative">
+                    <img src="bluecircle.png" alt="" class="w-9 h-9">
+                    <img src="x.png" alt="" class="w-4.5 h-4.5 absolute top-1.5 left-2.5">
+                </div>
+                <div class="relative">
+                    <img src="bluecircle.png" alt="" class="w-9 h-9">
+                    <img src="f.png" alt="" class="w-5 h-5 absolute top-1.5 left-2">
+                </div>
+                <div class="relative">
+                    <img src="bluecircle.png" alt="" class="w-9 h-9">
+                    <img src="insta.png" alt="" class="w-5 h-5 absolute top-2 left-2">
+                </div>
+
+            </div>
+            <div class="text-xs text-[#868686]">@2024 curavida all copyrights reserved</div>
+        </div>
+
+
+
+    </footer>
 </body>
 
 </html>
